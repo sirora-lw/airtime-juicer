@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "es2017",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "lib": ["es2017", "dom"],
+    "types": ["node"]
+  },
+  "include": ["./**/*.ts", "./**/*.js"]
+}

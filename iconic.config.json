@@ -1,0 +1,7 @@
+{
+  "name": "AirtimeScanner",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

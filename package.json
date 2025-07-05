@@ -1,0 +1,29 @@
+{
+  "name": "airtime-scanner",
+  "version": "1.0.0",
+  "description": "An airtime scratch card scanner application.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "npx @capacitor/cli serve",
+    "build": "npx @capacitor/cli sync android",
+    "android": "npx @capacitor/cli open android"
+  },
+  "keywords": [
+    "capacitor",
+    "mobile",
+    "airtime",
+    "scanner"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/camera": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/splash-screen": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.1",
+    "typescript": "^5.8.3"
+  }
+}
