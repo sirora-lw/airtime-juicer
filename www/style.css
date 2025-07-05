@@ -1,0 +1,24 @@
+/* No custom CSS needed here as Tailwind CSS is used for styling */
+/* This file exists for structure and if you need to add very specific, non-Tailwind styles */
+/* Ensure the body and html take full height for proper centering */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling on the main page */
+}
+
+/* Basic styling for the main container to ensure it's centered */
+.airtime-scanner-container {
+    max-height: 90vh; /* Limit height to prevent overflow on smaller screens */
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+}
+
+/* Hide scrollbar for a cleaner look */
+.airtime-scanner-container::-webkit-scrollbar {
+    display: none;
+}
+.airtime-scanner-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
